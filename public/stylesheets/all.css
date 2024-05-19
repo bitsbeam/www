@@ -8755,46 +8755,6 @@ svg[data-v-c493b844] {
     margin-bottom: var(--spacing-4)
 }
 
-.planet-terra[data-v-c493b844] {
-    top: -8%;
-    left: 25.6%;
-    width: 6.7%
-}
-
-.planet-bitcoin[data-v-c493b844], .planet-osmosis[data-v-c493b844] {
-    top: 19%;
-    left: 19%;
-    width: 6.4%
-}
-
-.planet-osmosis svg[data-v-c493b844] {
-    rotate: 5deg
-}
-
-.planet-ethereum[data-v-c493b844] {
-    top: 13%;
-    left: 67%;
-    width: 7%
-}
-
-.planet-cryptocom[data-v-c493b844] {
-    top: 72.8%;
-    left: 72.3%;
-    width: 5.5%
-}
-
-.planet-thorchain[data-v-c493b844] {
-    top: -10%;
-    left: 74.3%;
-    width: 4.9%
-}
-
-.planet-binance[data-v-c493b844] {
-    top: 48%;
-    left: 28%;
-    width: 8%
-}
-
 .crosshair[data-v-c493b844] {
     position: absolute;
     bottom: 0;
