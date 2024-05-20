@@ -16,25 +16,6 @@
     transition-duration: .05s
 }
 
-.tm-button__glow[data-v-75d17770]:before {
-    content: "";
-    position: absolute;
-    border-radius: inherit;
-    transform: translateZ(0);
-    z-index: 0;
-    opacity: .4;
-    transition: background-position .4s cubic-bezier(.165, .84, .44, 1), opacity .5s cubic-bezier(.165, .84, .44, 1)
-}
-
-.tm-button__glow[data-v-75d17770]:focus, .tm-button__glow[data-v-75d17770]:focus:before, .tm-button__glow[data-v-75d17770]:hover, .tm-button__glow[data-v-75d17770]:hover:before {
-    background-position: 100% 100%
-}
-
-.tm-button__glow[data-v-75d17770]:focus:before, .tm-button__glow[data-v-75d17770]:hover:before {
-    transition-duration: .2s;
-    opacity: .5
-}
-
 .tm-button__variant__text[data-v-75d17770] {
     --color: var(--link)
 }
@@ -45,39 +26,6 @@
 
 .tm-button__variant__text[data-v-75d17770]:active {
     opacity: .6
-}
-
-.tm-button__variant__outlined[data-v-75d17770] {
-    --border-color: var(--link);
-    --color: var(--link)
-}
-
-.tm-button__variant__outlined.tm-button__glow[data-v-75d17770]:before, .tm-button__variant__outlined[data-v-75d17770]:after {
-    border: .0625rem solid var(--border-color)
-}
-
-.tm-button__variant__outlined[data-v-75d17770]:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: inherit;
-    opacity: .33;
-    transition: opacity .25s cubic-bezier(.165, .84, .44, 1)
-}
-
-.tm-button__variant__outlined.tm-button__glow[data-v-75d17770]:before {
-    top: -.0625em;
-    left: -.0625em;
-    right: -.0625em;
-    bottom: -.0625em;
-    filter: blur(.4rem)
-}
-
-.tm-button__variant__outlined[data-v-75d17770]:focus:after, .tm-button__variant__outlined[data-v-75d17770]:hover:after {
-    opacity: 1
 }
 
 .tm-button__variant__contained[data-v-75d17770] {
@@ -139,16 +87,6 @@
 .tm-button[disabled][data-v-75d17770] {
     cursor: not-allowed !important;
     opacity: .65 !important
-}
-
-.tm-button__size__s[data-v-75d17770] {
-    padding-top: var(--spacing-4);
-    padding-bottom: var(--spacing-4)
-}
-
-.tm-button__size__s.tm-button__variant__contained[data-v-75d17770], .tm-button__size__s.tm-button__variant__outlined[data-v-75d17770] {
-    padding-left: var(--spacing-6);
-    padding-right: var(--spacing-6)
 }
 
 .tm-button__size__m[data-v-75d17770] {
